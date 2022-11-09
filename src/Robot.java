@@ -1,7 +1,7 @@
 
 
 
-public class Robot {
+public class Robot implements Attacker{
     //Instance Variables (HAS A)
     public String name;
     public Weapon weapon;
