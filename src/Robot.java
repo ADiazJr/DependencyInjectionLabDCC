@@ -7,8 +7,8 @@ public class Robot {
     public Weapon weapon;
 
     //Constructor
-    public Robot(Weapon weapon) {
-        this.name = "Tin man";
+    public Robot(Weapon weapon, String name) {
+        this.name = name;
         this.weapon = weapon;
 
     }
